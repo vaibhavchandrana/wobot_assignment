@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import logo2 from '../logo2.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -9,7 +8,7 @@ const Form = () => {
     return (
         <div className='outer-container' >
             <div className='logo2'>
-                <img src={logo2} />
+                <img src={logo2} alt="logo" />
             </div>
             <div className='welcome-msg'>
                 <span>

@@ -8,7 +8,7 @@ function App() {
     <div className='body'>
     <div className="App">
        <div className="logo">
-        <img src={logo} />
+        <img src={logo} alt=" wobot logo "/>
        </div>
        <Form />
     </div>
