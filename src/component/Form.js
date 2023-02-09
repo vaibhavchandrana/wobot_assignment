@@ -3,7 +3,6 @@ import logo2 from '../logo2.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const Form = () => {
-    const [loading, setLoading] = useState(false)
     const notify = () => toast.info("Welcome to Wobot.ai ", {
         theme: "colored"
     });
