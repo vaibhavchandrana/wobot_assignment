@@ -400,14 +400,6 @@ input[type="radio"] {
     font-size: 1rem;
   }
 
-  select:focus+label {
-    color: #3766e8;
-    top: 0;
-    transform: translateY(-50%) scale(.9);
-    font-weight: bold;
-    font-size: 1rem;
-
-  }
 
   input:not(:placeholder-shown)+label {
     top: 0;
@@ -429,7 +421,7 @@ input[type="radio"] {
     color: white;
     font-weight: 400;
     margin-left: 6vw;
-    margin-bottom: 1vh;
+    margin-bottom: 3vh;
 
   }
 

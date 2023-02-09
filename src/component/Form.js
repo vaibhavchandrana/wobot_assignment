@@ -23,7 +23,7 @@ const Form = () => {
             </div>
             <div className='small-text'>
                 <p>
-                    (this is how we optimize wobot as
+                    (This is how we optimize wobot as
                 </p>
                 <p>
                     per your bussiness need)
