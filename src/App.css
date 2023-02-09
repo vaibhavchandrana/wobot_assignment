@@ -270,6 +270,7 @@ input[type="radio"] {
   background-color: rgb(55, 102, 232);
   border-color: rgb(13, 5, 23);
   color: white;
+  font-size: small;
 
 }
 
@@ -302,7 +303,7 @@ input[type="radio"] {
   }
 
   .outer-container {
-    height: 70vh;
+    height: 74vh;
     width: 80vw;
     margin-right: 10vw;
     margin-top: 5vh;
@@ -405,13 +406,9 @@ input[type="radio"] {
     top: 0;
     transform: translateY(-50%) scale(.9);
   }
-  select:not(:placeholder-shown)+label {
-    top: 0;
-    transform: translateY(-50%) scale(.9);
-  }
+  
 
   .btn {
-    margin-top: 0.5vh;
     width: 86%;
     height: 35px;
     margin-left: 2vw;
@@ -421,7 +418,6 @@ input[type="radio"] {
     color: white;
     font-weight: 400;
     margin-left: 6vw;
-    margin-bottom: 3vh;
 
   }
 
@@ -445,12 +441,13 @@ input[type="radio"] {
   }
   .radio{
     margin-left: 2vw;
+
   }
   
   .radio>label {
     /* display: inline-block; */
     width: 15vw;
-    height: 4vh;
+    height: 3vh;
 
   }
  
